@@ -1,0 +1,29 @@
+{
+  "name": "aster-parse-esnext",
+  "version": "0.0.1",
+  "description": "Parse ES6 as ES5 AST for aster.",
+  "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
+  "repository": "asterjs/aster-parse-esnext",
+  "license": "MIT",
+  "keywords": [
+    "aster-plugin",
+    "ast",
+    "javascript",
+    "transform",
+    "modify"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "esnext": "^0.8.2",
+    "esprima": "git+https://github.com/ariya/esprima.git#harmony",
+    "estraverse": "^1.5.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "rx": "^2.2.0"
+  }
+}
