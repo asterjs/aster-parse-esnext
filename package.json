@@ -1,6 +1,6 @@
 {
   "name": "aster-parse-esnext",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse ES6 as ES5 AST for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-parse-esnext",
@@ -17,13 +17,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "esnext": "^0.8.2",
+    "esnext": "^0.11.0",
     "esprima": "git+https://github.com/ariya/esprima.git#harmony",
     "estraverse": "^1.5.1"
   },
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
-    "rx": "^2.2.0"
+    "rx": "^2.3.11"
   }
 }
